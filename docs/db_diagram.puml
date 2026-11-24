@@ -156,6 +156,7 @@ entity "logs" as logs {
 
 entity "profiles" as profiles {
   * id : INT
+  name : VARCHAR(30)
   --
   created : DATETIME
   updated : DATETIME
